@@ -5,9 +5,7 @@ var validator = require('express-validator')
 var app = express()
 var Contact = require('./models').Contact
 var path = require('path')
-var sslRedirect = require('heroku-ssl-redirect')
 
-app.use(sslRedirect())
 app.use(express.static('public'))
 app.use(bodyParser.json())
 app.use(validator())
