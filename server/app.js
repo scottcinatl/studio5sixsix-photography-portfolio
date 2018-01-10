@@ -9,6 +9,7 @@ app.use(express.static('public'))
 app.use(bodyParser.json())
 app.use(validator())
 app.use(cors())
+app.use(express.static(path.resolve(__dirname, '../client/build')))
 
 app.get('/', (req, res) => {
   res.json({ message: 'API Example App' })
@@ -40,6 +41,10 @@ app.post('/contacts', (req, res) => {
       res.json({ errors: { validations: validationErrors.array() } })
     }
   })
+})
+
+app.get('*', function(request, response) {
+  response.sendFile(path.resolve(__dirname, '../client/build', 'index.html'))
 })
 
 module.exports = app
