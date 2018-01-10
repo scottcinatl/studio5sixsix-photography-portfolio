@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 var apiUrl
 if (process.env.NODE_ENV === 'production') {
-  apiUrl = '/contacts'
+  apiUrl = ''
 } else {
   apiUrl = 'http://localhost:3000'
 }
