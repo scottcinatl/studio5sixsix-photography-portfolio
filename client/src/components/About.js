@@ -10,7 +10,7 @@ class About extends Component {
           <div class="about-left">
             <h1 class="about-title">ABOUT STUDIO5SIXSIX</h1>
             <p>
-              Hi There! I'm an amateur photographer living in San Diego, just taking photos for fun. I am an educator by
+              Hi there! I'm an amateur photographer living in San Diego, just taking photos for fun. I am an educator by
               day, an avid tv-watcher by night, and I would rather be in the company of puppies and kittens over that of
               humans.
             </p>
