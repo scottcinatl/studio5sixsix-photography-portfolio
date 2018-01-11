@@ -10,12 +10,13 @@ class About extends Component {
           <div class="about-left">
             <h1 class="about-title">ABOUT STUDIO5SIXSIX</h1>
             <p>
-              Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever…
-              It remembers little things, long after you have forgotten everything.
+              Hi There! I'm an amateur photographer living in San Diego, just taking photos for fun. I am an educator by
+              day, an avid tv-watcher by night, and I would rather be in the company of puppies and kittens over that of
+              humans.
             </p>
             <p>
-              If the photographer is interested in the people in front of his lens, and if he is compassionate, it’s
-              already a lot. The instrument is not the camera but the photographer.
+              That's probably why you won't see many people in my photos. I prefer to capture the beauty of the world
+              around us, and the creatures that inhabit it.
             </p>
             <img className="signature" src={signature} alt="signature" />
           </div>
