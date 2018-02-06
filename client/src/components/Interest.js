@@ -8,7 +8,7 @@ class Interest extends Component {
   render() {
     return (
       <div>
-        <div className="interest">
+        <div className="interest" id="contact">
           <div className="interest-flex">
             <div class="interest-box">
               <div className="interest-content">

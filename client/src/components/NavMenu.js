@@ -9,9 +9,9 @@ class NavMenu extends Component {
     return (
       <div>
         <Navbar brand="STUDIO566" right>
-          <NavItem href="#">Services</NavItem>
-          <NavItem href="#">Gallery</NavItem>
-          <NavItem href="#">Contact</NavItem>
+          <NavItem href="#services">Services</NavItem>
+          <NavItem href="#gallery">Gallery</NavItem>
+          <NavItem href="#contact">Contact</NavItem>
         </Navbar>
       </div>
     )

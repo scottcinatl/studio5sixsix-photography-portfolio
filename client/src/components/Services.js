@@ -5,7 +5,7 @@ import './Services.css'
 class Services extends Component {
   render() {
     return (
-      <div className="feature">
+      <div className="feature" id="services">
         <div className="service-flex">
           <div class="box1 left col">
             <hr />

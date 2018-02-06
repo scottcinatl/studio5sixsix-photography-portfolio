@@ -16,7 +16,7 @@ import './Gallery.css'
 class Gallery extends Component {
   render() {
     return (
-      <div className="gallery-container">
+      <div className="gallery-container" id="gallery">
         <h3 className="gallery-header">GALLERY</h3>
         <div className="gallery-section">
           <div className="row">
