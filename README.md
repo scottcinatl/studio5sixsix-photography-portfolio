@@ -11,16 +11,16 @@ A photography portfolio website I developed for a local photographer using react
 # Install
 
 ```
-git clone https://github.com/scottcinatl/studio5sixsix-photography-portfolio.git
-cd studio5sixsix-photography-portfolio
-yarn install
+$ git clone https://github.com/scottcinatl/studio5sixsix-photography-portfolio.git
+$ cd studio5sixsix-photography-portfolio
+$ yarn install
 ```
 
 # Run Locally
 
 ```
-cd server
-node index.js
-cd client
-yarn start
+$ cd server
+$ node index.js
+$ cd client
+$ yarn start
 ```
