@@ -1,0 +1,50 @@
+.interest {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.interest .interest-box {
+  width: 100%;
+  text-align: center;
+}
+
+.interest-content {
+  font-family: 'PT Sans', sans-serif;
+  color: #231f20;
+  line-height: 1.8;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5% 0;
+}
+
+.arrow {
+  width: 15%;
+}
+
+.interest-flex {
+  display: flex;
+}
+
+/* =================== 
+    MEDIA QUERIES
+=================== */
+
+@media screen and (max-width: 550px) {
+  .interest-content {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .interest-content {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .interest-content {
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,143 @@
+/* =================== 
+      CANON HERO
+=================== */
+
+.canon {
+  background: linear-gradient(-90deg, #56ccf2, #2f80ed);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 670px;
+  text-align: center;
+}
+
+.canon-header {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 25px;
+  padding-left: 2%;
+}
+
+.canon h2 {
+  font-size: 45px;
+  color: #ffffff;
+  padding-top: 10%;
+  margin-top: 0px;
+}
+
+.canon p {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 21px;
+  line-height: 1.6;
+}
+
+.canon img {
+  margin-top: 5%;
+  filter: drop-shadow(2px 2px 5px grey);
+}
+
+/* =================== 
+    MEDIA QUERIES
+=================== */
+
+@media only screen and (max-width: 1000px) {
+  .canon img {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .canon img {
+    margin-top: 12%;
+  }
+
+  .canon h2 {
+    font-size: 40px;
+  }
+
+  .canon p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .canon img {
+    margin-top: 15%;
+  }
+
+  .canon h2 {
+    font-size: 30px;
+  }
+
+  .canon p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .canon {
+    height: 750px;
+  }
+
+  .canon img {
+    width: 80%;
+  }
+
+  .canon h2 {
+    font-size: 20px;
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .canon {
+    height: 700px;
+  }
+
+  .canon h2 {
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .canon {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .canon img {
+    margin-top: 35%;
+    width: 90%;
+  }
+
+  .canon h2 {
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .canon img {
+    margin-top: 45%;
+  }
+
+  .canon h2 {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .canon {
+    height: 500px;
+  }
+
+  .canon h2 {
+    font-size: 20px;
+    letter-spacing: 12px;
+  }
+}

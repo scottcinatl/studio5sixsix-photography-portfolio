@@ -1,0 +1,25 @@
+/* ===================
+     FOOTER SECTION
+=================== */
+
+.footer {
+  background-color: #56ccf2;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.footer-header {
+  color: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  line-height: 5px;
+  letter-spacing: 5px;
+}
+
+.footer p {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  line-height: 10px;
+  letter-spacing: 5px;
+}

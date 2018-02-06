@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './Contact.css'
+
 class Contact extends Component {
   constructor(props) {
     super(props)
@@ -26,7 +28,6 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact" className="contact-container">
-        <h1 class="contact-title">CONTACT STUDIO5SIXSIX</h1>
         <form class="contact-form">
           <input
             id="i1"

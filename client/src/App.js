@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import './App.css'
 
-import Header from './components/Header'
+import NavMenu from './components/NavMenu'
 import Hero from './components/Hero'
-import About from './components/About'
+import Services from './components/Services'
 import Gallery from './components/Gallery'
+import Interest from './components/Interest'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -51,10 +52,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <NavMenu />
         <Hero />
-        <About />
+        <Services />
         <Gallery />
+        <Interest />
         <Contact onSubmit={this.handleNewMessage.bind(this)} />
         <Footer />
       </div>
