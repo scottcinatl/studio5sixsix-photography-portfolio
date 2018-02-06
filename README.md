@@ -1,6 +1,6 @@
 # Studio5sixsix Photography Portfolio
 
-A photography portfolio website I developed for a local photographer using React and CSS styling work for the frontend while utilizing node.js and express for the server side of the application. You can view the website at [Studio5sisix](https://studio5sixsix.herokuapp.com/)
+A photography portfolio website I developed for a local photographer using React and CSS styling work for the frontend while utilizing node.js and express for the server side of the application. You can view the website at [Studio5sixsix](https://studio5sixsix.herokuapp.com/)
 
 # Built With
 
