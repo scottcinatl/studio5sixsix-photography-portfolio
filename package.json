@@ -9,14 +9,13 @@
     "heroku-postbuild": "cd server && sequelize db:migrate && cd .. && cd client && yarn install && yarn build"
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.1",
     "express-validator": "^4.3.0",
     "nodemon": "^1.14.10",
-    "pg": "6.1.5",
+    "pg": "6.1.6",
     "sequelize": "3.30.4",
     "sequelize-cli": "^3.2.0"
   },
